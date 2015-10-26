@@ -1,0 +1,35 @@
+<!-- /div>
+<!-- div content -->
+</div-->
+<!-- div body -->
+<footer>
+
+
+
+
+
+	<p>Rodapé em desenvolvimento.</p>
+</footer>
+<!--/.fluid-container-->
+
+
+
+<script src="/xy-inc/bootstrap/js/bootstrap.js"></script>
+
+<script src="/xy-inc/vendors/datatables/js/jquery.dataTables.min.js"></script>
+
+
+<script src="/xy-inc/assets/scripts.js"></script>
+<script src="/xy-inc/assets/DT_bootstrap.js"></script>
+<script src="/xy-inc/jstree/jstree.js"></script>
+<script>
+	$(function() {
+		$('#jstree_menuleft').jstree();
+		$('#jstree_menuleft').jstree('open_all');
+	});
+</script>
+
+
+</body>
+
+</html>
