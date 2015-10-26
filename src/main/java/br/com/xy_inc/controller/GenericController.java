@@ -17,9 +17,6 @@ public interface GenericController<T> {
 	/**
 	 * Busca uma entidade dado o Id da mesma.
 	 * 
-	 * @param Classe
-	 *            da entidade a ser pesquisada.
-	 * 
 	 * @param id
 	 *            Id da entidade a ser pesquisada.
 	 * @return Retorna a entidade correspondente ao Id informado, null caso
@@ -82,7 +79,7 @@ public interface GenericController<T> {
 	 * Metodo responsavel por redirecionar o usuario para a tela de listagem de
 	 * conteudo.
 	 * 
-	 * @return
+	 * @return Retorna todos objetos.
 	 */
 	public List<T> listar();
 

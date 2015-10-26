@@ -105,8 +105,8 @@ public class AtributoController implements GenericController<Atributo> {
 	/**
 	 * Redireciona o usuario para a tela de edicao de {@link Atributo}
 	 * 
-	 * @param atributo
-	 *            - {@link Atributo} a ser editado.
+	 * @param id
+	 *            identificador do Atributo.
 	 * @return - retorna o {@link Atributo} a ser editado.
 	 */
 	public Atributo editar(Long id) {
@@ -118,7 +118,7 @@ public class AtributoController implements GenericController<Atributo> {
 	/**
 	 * Servico REST que busca o {@link Atributo} a ser editado.
 	 * 
-	 * @param modelo
+	 * @param atributo
 	 *            {@link Atributo} a ser pesquisado
 	 * @return {@link Atributo} a ser editado.
 	 */

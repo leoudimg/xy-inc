@@ -58,8 +58,8 @@ public abstract class Repository<T> {
 	/**
 	 * Metodo responsavel por excluir um objeto na base de dados.
 	 * 
-	 * @param entidade
-	 *            objeto a ser excluido.
+	 * @param id
+	 *            id do objeto a ser excluido.
 	 */
 	public void excluir(Long id) {
 		// TODO refatorar remover consulta.
@@ -83,9 +83,6 @@ public abstract class Repository<T> {
 	/**
 	 * Busca uma entidade dado o Id da mesma.
 	 * 
-	 * @param Classe
-	 *            da entidade a ser pesquisada.
-	 * 
 	 * @param id
 	 *            Id da entidade a ser pesquisada.
 	 * @return Retorna a entidade correspondente ao Id informado, null caso
@@ -99,7 +96,7 @@ public abstract class Repository<T> {
 	 * Metodo responsavel por realizar um update na base de dados do registro
 	 * informado.
 	 * 
-	 * @param objeto
+	 * @param entidade
 	 *            Objeto a ser atualizado.
 	 */
 	public T atualizar(T entidade) {

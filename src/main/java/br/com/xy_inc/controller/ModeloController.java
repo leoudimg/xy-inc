@@ -96,8 +96,8 @@ public class ModeloController implements GenericController<Modelo> {
 	/**
 	 * Redireciona o usuario para a tela de edicao de {@link Modelo}
 	 * 
-	 * @param modelo
-	 *            - {@link Modelo} a ser editado.
+	 * @param id
+	 *            Identificador do {@link Modelo} a ser editado.
 	 * @return - retorna o {@link Modelo} a ser editado.
 	 */
 	public Modelo editar(Long id) {

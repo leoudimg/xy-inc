@@ -123,8 +123,8 @@ public class RegistroController implements GenericController<Registro> {
 	/**
 	 * Redireciona o usuario para a tela de edicao de {@link Registro}
 	 * 
-	 * @param registro
-	 *            - {@link Registro} a ser editado.
+	 * @param id
+	 *            Identificador do {@link Registro} a ser editado.
 	 * @return - retorna o {@link Registro} a ser editado.
 	 */
 	public Registro editar(Long id) {

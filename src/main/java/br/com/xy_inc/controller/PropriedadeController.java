@@ -95,8 +95,8 @@ public class PropriedadeController implements GenericController<Propriedade> {
 	/**
 	 * Redireciona o usuario para a tela de edicao de {@link Propriedade}
 	 * 
-	 * @param propriedade
-	 *            - {@link Propriedade} a ser editado.
+	 * @param id
+	 *            Identificador da {@link Propriedade} a ser editado.
 	 * @return - retorna o {@link Propriedade} a ser editado.
 	 */
 	public Propriedade editar(Long id) {
